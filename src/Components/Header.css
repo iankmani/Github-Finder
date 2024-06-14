@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    
+}
+.header-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #070f2b;
+    color: #ccd2da;
+}
+.inputandbutton{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.header-section a{
+    color: #ccd2da;
+    font-size: 20px;
+    
+}
+.header-section p{
+    font-size: 20px;
+    color: #ccd2da;
+}
+.header-section h1{
+    padding: 3px 15px;
+}
+.inputandbutton input{
+    padding: 13px 10px;
+}
+.inputandbutton button{
+    padding: 13px 10px;
+
+}
+
