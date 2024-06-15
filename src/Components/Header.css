@@ -1,37 +1,35 @@
-*{
-    margin: 0;
-    
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+  margin: 0;
 }
-.header-section{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #070f2b;
-    color: #ccd2da;
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #070f2b;
+  color: #ccd2da;
+  font-family: "Open Sans", sans-serif;
 }
-.inputandbutton{
-    text-align: center;
-    display: flex;
-    align-items: center;
-    padding: 10px;
+.inputandbutton {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  padding: 10px;
 }
-.header-section a{
-    color: #ccd2da;
-    font-size: 20px;
-    
+.header-section a {
+  color: #ccd2da;
+  font-size: 20px;
 }
-.header-section p{
-    font-size: 20px;
-    color: #ccd2da;
+.header-section p {
+  font-size: 20px;
+  color: #ccd2da;
 }
-.header-section h1{
-    padding: 3px 15px;
+.header-section h1 {
+  padding: 3px 15px;
 }
-.inputandbutton input{
-    padding: 13px 10px;
+.inputandbutton input {
+  padding: 13px 10px;
 }
-.inputandbutton button{
-    padding: 13px 10px;
-
+.inputandbutton button {
+  padding: 13px 10px;
 }
-
