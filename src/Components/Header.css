@@ -9,6 +9,7 @@
   background-color: #070f2b;
   color: #ccd2da;
   font-family: "Open Sans", sans-serif;
+  flex-wrap: wrap;
 }
 .inputandbutton {
   text-align: center;
