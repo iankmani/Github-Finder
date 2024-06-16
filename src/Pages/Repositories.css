@@ -1,0 +1,30 @@
+.right-profile-section{
+    display: flex;
+    border: 2px solid red;
+    width: 950px;
+
+}
+.repositories{
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* border: 2px solid blue; */
+}
+.repos-rating {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background-color: #fff7d6;
+    padding: 5px 10px;
+  }
+  .repository-name {
+    padding: 5px 10px;
+  }
+  .repository-description {
+    padding: 10px;
+    padding-bottom: 30px;
+  }
+  .repository-title {
+    padding-top: 10px;
+    padding-left: 20px;
+    /* border: 2px solid brown; */
+  }

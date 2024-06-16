@@ -1,11 +1,21 @@
 import "./App.css";
+// import Header from "./Components/Header";
+import Home from "./Components/Home";
 import Header from "./Components/Header";
-import Profile from "./Pages/Profile";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+
 function App() {
   return (
     <>
-      <Header />
-      <Profile />
+    <BrowserRouter>
+    <Header />
+      <Routes>
+      <Route path="/" element={<Home/>}/>
+      </Routes>
+      </BrowserRouter>
+
+
     </>
   );
 }
